@@ -116,6 +116,12 @@ nav span:hover{
   border-width: 1px;
   font-size: 1.20rem;
 }
+.get-started .a:hover,.a:hover{
+  background: #100e17;
+  color:#c2c2c2;
+  text-decoration: none;
+  border: 1px solid #c2c2c2;
+}
 .get-started .b{
   text-decoration: none;
 }
@@ -129,7 +135,7 @@ nav span:hover{
 padding: 50px 0 50px 0;
 }
 .ubuntu{
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Aclonica', sans-serif;
   color:#c2c2c2;
 }
 .c{
@@ -298,9 +304,6 @@ a span:hover{
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
 }
-button:hover{
-  cursor: pointer;
-}
 button{
     background: linear-gradient(90deg,#ff8a00,#e52e71);
     color:#c2c2c2æ
@@ -314,6 +317,13 @@ text-align: center;
 }
 .view-more{
  align-items: center;
+}
+.view-more button:hover{
+  background: #100e17;
+  color:#c2c2c2;
+  text-decoration: none;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
 }
 .bttn{
  margin-left: 45%;
@@ -353,6 +363,7 @@ text-align: center;
   background: linear-gradient(0deg,#ff8a00,#e52e71);
   transform: translateY(0);
   border-radius: 0 70px 0 100px;
+
 }
 .container-fluid .card1:hover .face.face1 .content{
   opacity: 1.5;
@@ -381,7 +392,8 @@ text-align: center;
   padding: 20px;
   box-sizing: border-box;
   transform: translateY(-100px);
-  box-shadow: 0 20px 50px rgba(0,0,0,.8);
+  box-shadow: 0 0 5px rgba(0,0,0,.8);
+
 }
 .container-fluid .card1:hover .face.face2{
   transform: translateY(0);
@@ -392,8 +404,8 @@ text-align: center;
   color:white;
 }
 .container-fluid .card1 .face.face2 .content a{
-  margin: 7px 0 0;
-  background: #ff8c00;
+  margin: 7px 0 0 26%;
+  background:linear-gradient(90deg,#ff8c00,#e52e71);
   display: inline-block;
   text-decoration: none;
   font-weight: 900;
